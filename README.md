@@ -131,8 +131,8 @@ The ESP32 firmware is the heart of the BLE scanning operation:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/drone-remote-id-scanner.git
-   cd drone-remote-id-scanner
+   git clone https://github.com/colonelpanichacks/BLE-RemoteID
+   cd BLE-RemoteID
    ```
 
 2. **Upload the ESP32 Firmware:**
@@ -146,7 +146,7 @@ The ESP32 firmware is the heart of the BLE scanning operation:
      ```
    - Run the API script:
      ```bash
-     python app.py
+     mesh-mapper.py
      ```
    - The API will start and open in your default web browser.
 
