@@ -146,7 +146,7 @@ The ESP32 firmware is the heart of the BLE scanning operation:
      ```
    - Run the API script:
      ```bash
-     mesh-mapper.py
+     python3 mesh-mapper.py
      ```
    - The API will start and open in your default web browser.
 
